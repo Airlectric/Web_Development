@@ -1,0 +1,149 @@
+
+
+body{margin:0;
+     background-image:url("rd.jpg");
+     background-repeat:no-repeat;
+     background-attachment:fixed;
+     background-size:100% 100%;
+     /*color:white;*/
+     text-align:center;
+     font-size: 1.3em;
+    /* text-shadow:0.5px 0.5px #434f85de;*/
+}
+
+header{text-transform:capitalize;
+    
+}
+
+#tabs{
+    width: 1000px;;
+    margin:auto;
+    
+}
+
+#tabs>ul{
+    list-style-type: none;
+    display:flex;
+    width: 800px;;
+    height:60px;
+    justify-content: center;
+    margin: auto;
+    border-radius: 10px;
+    
+}
+
+#tabs>ul>li>a{
+    display:block;
+    color:white;
+    background: royalblue;
+    
+    text-decoration: none;
+    padding: 10px;
+    height: 40px;
+    font-size: medium;
+    
+    
+}
+
+#tabs >div{
+    display:none;
+    padding: 16px;
+    background:rgba(7, 7, 180, 0.363);
+    border: 7px solid blueviolet;
+    border-radius: 10px;
+}
+
+#tabs>div:first-of-type{
+    display:block;
+    background: rgba(7, 7, 180, 0.363);
+}
+
+#tabs>ul>li:first-of-type{
+    color:white;
+    background:rebeccapurple;
+}
+
+p{
+    line-height: 1.5em;
+}
+table,th,td{border:5px solid white;
+            text-align:center;
+            border-radius:10px;
+            font-family:Times,serif;
+            margin: auto;           
+}
+
+p{ font-family:"Times New Roman",Times,serif}
+/*p{font-family:"Brush Script MT",
+Lucida, Handwriting;}*/
+/*p{font-family:Sofia;}*/
+
+a{
+    font-family:Trirong;
+}
+
+h1,h2,h3{
+    font-family:"Times New Roman",Times,serif;
+}
+
+header{
+    font-family:"Times New Roman",Times,serif;
+}
+
+
+#slider{
+    position:relative;
+    overflow: hidden;
+    width: 600px;
+    height:600px;
+    border:5px solid indigo;
+    margin: auto;
+    border-radius: 10px ;
+    
+}
+
+#slider ul{
+  display:flex;
+  position:absolute;
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+  top: 0;
+  left: 0;
+}
+
+#slider ul li img{
+    display:block;
+    width: 600px;
+    height:600px;
+}
+
+#link{
+    display:flex;
+    width: 610px;
+    height: 40px;
+    margin: auto;
+}
+
+#link a{
+    display:block;
+    font-size: larger;
+    text-align: center;
+    color:black;
+    background: rgb(76, 0, 130);
+    width: 300px;
+    border:5px solid indigo;
+    text-decoration: none;
+    
+}
+
+#link a:hover{
+    color:rgb(236, 6, 6);
+    background:rgba(76, 0, 130, 0.534);
+}
+
+
+
+
+
+
